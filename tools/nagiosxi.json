@@ -29,7 +29,7 @@
           "sudo yum install serverbackup-enterprise-agent",
           "sudo systemctl start sbm-agent",
           "sudo systemctl enable sbm-agent",
-          "curl https://assets.nagios.com/downloads/nagiosxi/install.sh | sh"
+          "curl https://assets.nagios.com/downloads/nagiosxi/install.sh | sudo sh"
     ]
     }
   ]
